@@ -39,23 +39,38 @@
 │      └─teed
 │          └─fused
 └─tradition
+    ├─canny
     ├─denoise+sobel
     └─sobel
 ```
 
-分为传统方法和深度学习方法
+分为传统方法和深度学习方法3
 
-## sobel
+## 传统方法
+
+### sobel
 
 首先想到的是使用sobel算子，直接使用sobel算子进行图像处理，在`preprocess.ipynb`里面实现，处理的结果存放在`result\tradition\sobel`中，产生的部分结果如下：
 
 ![18](imgs/1.png)
 
-## denoise+sobel
+### denoise+sobel
 
 上图看到存在噪声，使用高斯滤波进行去噪，然后再使用sobel算子进行图像处理，也在`preprocess.ipynb`里面实现，处理的结果存放在`result\tradition\denoise+sobel`中，产生的部分结果如下：
 
 ![18](imgs/2.png)
+
+
+
+
+
+### canny算法
+
+canny算法的结果其实相当不错
+
+![18](imgs/14.png)
+
+处理的结果存放在`result\tradition\canny`中
 
 
 
