@@ -174,6 +174,8 @@ teed
 
 
 
+上传容量限制，**没有提交模型的checkpoint**
+
 使用的两个模型地址
 
 >[xavysp/DexiNed: DexiNed: Dense EXtreme Inception Network for Edge Detection (github.com)](https://github.com/xavysp/DexiNed)
